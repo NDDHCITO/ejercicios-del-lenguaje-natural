@@ -1,0 +1,94 @@
+1Algoritmo de Conversión de Medidas
+Entrada: Un valor numérico en centímetros.
+Salida: Un valor numérico que representa la conversión a pulgadas.
+Pasos:
+Leer el valor en centímetros.
+Si el valor del paso anterior es igual a cero, imprimir un mensaje que indique que debe ser distinto de cero y detener la ejecución.
+De lo contrario, dividir el valor en centímetros entre 2.54.
+Mostrar en un mensaje el resultado obtenido en el paso anterior.
+
+2Algoritmo de Cálculo de Hora Futura
+Entrada: Dos números, uno para la hora actual y otro para las horas a añadir.
+Salida: Mostrar el resultado correspondiente a la hora futura.
+Pasos:
+Leer la hora actual.
+Leer las horas a añadir.
+Sumar la hora actual con las horas añadidas.
+Si la suma de las horas es menor o igual a 24, esa es la hora futura.
+Si la suma de las horas es mayor a 24, dividir el total de horas entre 24.
+Obtener el resto de la división anterior.
+Multiplicar el resto obtenido por 24.
+Mostrar en un mensaje el resultado obtenido como la hora futura.
+
+3Algoritmo para Determinar Nota Necesaria
+Entrada: Las notas de dos exámenes y la nota de un laboratorio.
+Salida: La nota necesaria para aprobar.
+Pasos:
+Leer la nota del primer examen.
+Leer la nota del segundo examen.
+Leer la nota del laboratorio.
+Calcular el promedio de los exámenes (NC) con la fórmula NC = (60 - (NL * 0.3)) / 0.7, donde NL es la nota del laboratorio.
+Despejar la nota del tercer examen (C3) con la fórmula C3 = (NC * 3) - (C1 + C2).
+Mostrar el resultado como la nota mínima necesaria para aprobar; si es mayor a 100, se ha perdido la materia.
+
+4Algoritmo de Número Inverso
+Entrada: Un número entero de tres dígitos.
+Salida: El número invertido.
+Pasos:
+Leer el número de tres dígitos.
+Realizar operaciones para obtener los dígitos en orden inverso.
+Mostrar el número resultante en orden inverso.
+
+5Algoritmo para Años Bisiestos
+Entrada: Un año (número entero).
+Salida: Indicar si el año es bisiesto o no.
+Pasos:
+Leer el año.
+Si el año es mayor a 1582, comprobar si es divisible por 400 o por 4 pero no por 100 para ser bisiesto; de lo contrario, no lo es.
+Si el año es menor a 1582, comprobar si es divisible por 4 para ser bisiesto; de lo contrario, no lo es.
+Mostrar un mensaje indicando si el año es bisiesto o no.
+
+6Algoritmo para Calcular la Edad
+Entradas: Día, mes y año actuales; día, mes y año de nacimiento.
+Salida: Mostrar un mensaje que indique la edad de la persona.
+Pasos:
+Leer el día actual.
+Leer el mes actual.
+Leer el año actual.
+Leer el día de nacimiento.
+Leer el mes de nacimiento.
+Leer el año de nacimiento.
+Considerar un valor estático de 30 días para todos los meses para simplificar.
+Calcular la diferencia de días, meses y años entre la fecha actual y la de nacimiento.
+Ajustar los cálculos según las condiciones de diferencia de días, meses y años.
+Mostrar un mensaje que indique la edad de la persona.
+
+7Algoritmo para Determinar Números Pares e Impares
+Entrada: Un número entero.
+Salida: Un mensaje indicando si el número es par o impar.
+Pasos:
+Leer el número.
+Si el número es cero, mostrar un mensaje indicando que se ingrese un número diferente de cero y finalizar el programa.
+Si el número no es cero, obtener el módulo de la división entre el número ingresado y 2.
+Si el módulo es 0, el número es par; de lo contrario, es impar.
+Mostrar un mensaje indicando si el número es par o impar.
+
+8Algoritmo para Calcular Tiempo de Viaje
+Entradas: Números que representan los tiempos de cada tramo del viaje.
+Salida: Tiempo total del viaje expresado en horas y minutos.
+Pasos:
+Leer el tiempo de cada tramo.
+Si el tiempo del primer tramo es 0, finalizar el programa.
+Leer los tiempos de los tramos hasta que uno de ellos sea 0.
+Sumar los tiempos de los tramos.
+Calcular las horas y minutos totales del viaje.
+Mostrar un mensaje indicando la duración del viaje en horas y minutos.
+
+9Algoritmo para Obtener la Parte Decimal de un Número
+Entrada: Un número decimal.
+Salida: La parte decimal del número ingresado.
+Pasos:
+Leer el número.
+Verificar si el número es un entero; si lo es, mostrar un mensaje indicando que debe ser un número decimal y finalizar el programa.
+Si no es un entero, obtener la parte decimal del número.
+Mostrar la parte decimal del número.
